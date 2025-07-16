@@ -1,0 +1,13 @@
+2025-07-16 17:03:45,616 - DEBUG - This is a debug message
+2025-07-16 17:03:45,617 - INFO - This is an info message
+2025-07-16 17:03:45,617 - WARNING - This is a warning message
+2025-07-16 17:03:45,617 - ERROR - This is an error message
+2025-07-16 17:03:45,617 - CRITICAL - This is a critical message
+2025-07-16 17:03:58,515 - DEBUG - This is a debug message
+2025-07-16 17:03:58,516 - INFO - This is an info message
+2025-07-16 17:03:58,516 - WARNING - This is a warning message
+2025-07-16 17:03:58,516 - ERROR - This is an error message
+2025-07-16 17:03:58,516 - CRITICAL - This is a critical message
+root - WARNING - This is a warning message
+root - ERROR - This is an error message
+root - CRITICAL - This is a critical message
