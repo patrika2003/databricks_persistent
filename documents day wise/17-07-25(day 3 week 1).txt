@@ -3,3 +3,22 @@
 pylint
 collection modules- counter,defaultdict, namedtuple, dequeue, chainmap
 regex
+exception ,error
+file handling
+
+task- collection get any input from the user like name
+    #search that name in the collection
+    #UserNotFound Exception
+1) How to delete a file
+
+2)Email validation using regex
+
+3)Check whether the given URL is valid or not
+
+4)Write content to the CSV file
+
+5)I have a list of values in a collection ,convert all the first letter into caps
+
+6)UserNotFound Exception
+
+ 
