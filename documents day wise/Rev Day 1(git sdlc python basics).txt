@@ -1,0 +1,16 @@
+sdlc phases
+oops vs ooad
+agile tools
+agile artifacts and ceremonies, benefits
+agile vs waterfall
+the models of sd
+
+git
+git all commands
+workspace, staging area, local repo
+create and switch branch
+Centralized and Distributed Version Control Systems
+Agile.docx
+Git full content .docx
+SDLC.docx
+ 
