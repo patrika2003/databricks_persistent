@@ -39,3 +39,17 @@ new_text=re.sub(pattern,replacement,text)
 print(new_text)
 
 #####################################
+def extract_phone_numbers(text):
+
+  patterns =[
+        r"\b\d{3}-\d{3}-\d{4}\b",           # 123-456-7890
+        r"\b\(\d{3}\)\s*\d{3}-\d{4}\b",    # (123) 456-7890
+        r"\b\d{3}\.\d{3}\.\d{4}\b",        # 123.456.7890
+  ]
+
+  phone_numbers=[]
+  for pattern in patterns:
+    phone_numbers.extend(re.findall(pattern,text))
+  return phone_numbers
+text="call me at 123-456-7890 or (555) 123-4567"
+print(extract_phone_numbers(text))
