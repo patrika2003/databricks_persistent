@@ -1,0 +1,120 @@
+
+
+CREATE TABLE students (
+ id INT PRIMARY KEY,
+ name VARCHAR(50),
+ age INT,
+ gender VARCHAR(10),
+ marks INT,
+ city VARCHAR(50)
+);
+ 
+INSERT INTO students (id, name, age, gender, marks, city) VALUES
+(1, 'Alice', 20, 'Female', 85, 'Delhi'),
+(2, 'Bob', 22, 'Male', 67, 'Mumbai'),
+(3, 'Charlie', 23, 'Male', 92, 'Delhi'),
+(4, 'Daisy', 21, 'Female', 74, 'Kolkata'),
+(5, 'Evan', 20, 'Male', 89, 'Chennai'),
+(6, 'Fiona', 22, 'Female', 95, 'Mumbai');
+ 
+ 
+Only shows name and age
+
+
+Unique city names
+
+
+Filters only male students
+
+
+Students scoring above 80
+
+
+Ages 20 to 22 inclusive
+
+
+Students from Delhi
+
+
+Names starting with A
+
+
+Sorted by marks descending
+
+
+First 3 rows only
+ 
+ 
+ 
+Total rows
+
+
+Average marks
+
+
+Total marks
+SELECT SUM(marks) AS total_marks FROM students;
+
+
+Highest marks
+
+
+
+Youngest student
+
+
+
+No. of unique cities
+
+
+
+Male vs Female count
+
+
+
+Avg marks per city
+
+
+
+Top marks by gender
+
+SELECT gender, MAX(marks) AS top_marks FROM students GROUP BY gender;
+
+Cities with more than 1 student
+
+
+
+
+
+
+Adds bonus marks to Delhi students
+ 
+Names containing 'a'
+ 
+ 
+From specific cities
+
+
+Sorted list above 75
+
+
+Calculated birth year
+
+
+Cities with student count
+
+
+Result status
+
+
+Filters NULL names
+
+
+Length of each name
+
+
+Longest name
+ 
+ 
+ 
+ 
