@@ -21,4 +21,11 @@ task- collection get any input from the user like name
 
 6)UserNotFound Exception
 
+#patterns
+patterns = [
+        r"\b\d{3}-\d{3}-\d{4}\b",           # 123-456-7890
+        r"\b\(\d{3}\)\s*\d{3}-\d{4}\b",    # (123) 456-7890
+        r"\b\d{3}\.\d{3}\.\d{4}\b",        # 123.456.7890
+]
+
  
